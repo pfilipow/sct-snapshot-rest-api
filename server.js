@@ -17,7 +17,7 @@ var config = {"db": {
     },
     "accessControl": {
         "allowOrigin": "*",
-        "allowMethods": "GET,POST,PUT,DELETE,HEAD,OPTIONS"
+        "allowMethods": "GET"
     },
     'server': {
         'port': 3000,
@@ -43,8 +43,8 @@ app.configure(function() {
     app.use(express.static(process.cwd() + '/public'));
     app.use(express.logger());
 
-    app.set('views', __dirname + '/views');
-    app.set('view engine', 'jade');
+//    app.set('views', __dirname + '/views');
+//    app.set('view engine', 'jade');
 
     if (config.accessControl) {
         var accesscontrol = require('./lib/accesscontrol');

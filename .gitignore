@@ -1,15 +1,4 @@
-lib-cov
-*.seed
+node_modules
 *.log
 *.csv
 *.dat
-*.out
-*.pid
-*.gz
-
-pids
-logs
-results
-
-npm-debug.log
-/nbproject/private/

@@ -9,7 +9,7 @@
 	},
 	"accessControl": {
 		"allowOrigin": "*",
-		"allowMethods": "GET,POST,PUT,DELETE,HEAD,OPTIONS"
+		"allowMethods": "GET"
 	},
 	"flavor": "nounderscore",
 	"debug": true
